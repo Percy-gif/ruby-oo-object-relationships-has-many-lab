@@ -10,7 +10,7 @@ class Artist
 
     def add_song(song)
         @songs << song
-        song.artist = self
+        song.artist = self 
     end 
 
       #add_song
@@ -19,7 +19,7 @@ class Artist
         # by telling the song that it belongs to that artist
 
     def songs 
-        @songs
+        @songs 
     end 
 
     # def add_song_by_name(name, genre)
@@ -27,11 +27,11 @@ class Artist
     #     song.artist = self
     # end
 
-    def add_song_by_name(song_name)
-
-        song.artist 
-            #  Song.new(song_name)
-              
+    def add_song_by_name(name)
+ 
+        #  self = Song.new(name)
+        # song.artist = Song.new(name)
+             
         # self = Song.new(song_name)
         # song.artist = Song.new(song_name)
         # song = Song.new(song_name)
